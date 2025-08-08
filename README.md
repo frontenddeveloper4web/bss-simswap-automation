@@ -39,6 +39,30 @@ Simulates real-world workflows like **SIM swap requests**, **identity verificati
 
 ---
 
+## 🌐 Project 3: VAS API Test Suite
+
+Validates core telecom Value-Added Services (VAS) such as airtime purchase, balance check, and transaction history via USSD.
+
+### ✅ Features
+- Automated REST API testing for `*556#` balance check and airtime top-up
+- Built with REST Assured (Java) for enterprise-grade validation
+- Simulates real Nigerian telecom workflows
+- Ready for CI/CD integration
+
+### 🧪 Test Coverage
+| Test Case | Status |
+|----------|--------|
+| Check Balance (`GET /balance`) | ✅ Automated |
+| Buy Airtime (`POST /airtime`) | ✅ Automated |
+| View Transaction History | ✅ Automated |
+| Admin Recharge | 🟡 Manual (Postman)
+
+### 📎 Download Postman Collection
+📥 [VAS-API-Test-Suite.postman_collection.json](postman/VAS-API-Test-Suite.postman_collection.json)
+
+---
+
+
 ## ▶️ How to Run
 
 ### 1. Start the Mock API Server
@@ -48,24 +72,5 @@ npx json-server --watch db.json --port 3000
 ---
 
 
-## 🌐 Project 3: VAS API Test Suite
-Validates core telecom Value-Added Services (VAS), including airtime purchase, balance check, and transaction history.
-
-### 🔧 Features
-- REST API testing for USSD-backed services
-- Automated validation of business logic
-- Ready for integration into CI/CD pipelines
-- Aligns with real-world Nigerian telecom use cases
-
-### 📎 Postman Collection
-📁 [Download VAS API Collection](postman/VAS-API-Test-Suite.postman_collection.json)
-
-### 🧪 Test Coverage
-| Test | Status |
-|------|--------|
-| Check Balance | ✅ Automated |
-| Buy Airtime | ✅ Automated |
-| Transaction History | ✅ Automated |
-| Admin Recharge | 🟡 Manual (Postman) |
 
 
