@@ -84,7 +84,7 @@ Demonstrates ability to communicate QA value to stakeholders and industry peers.
 ### 📝 Article: "Why QA in Nigerian Telecom Isn’t Just About Finding Bugs"
 > "In enterprise systems like BSS/OSS, ERP, and VAS, QA isn’t about test cases — it’s about **business impact**. As a QA Team Lead, your job isn’t just to run regression suites. It’s to align testing with SLAs, predict risks, and turn data into insights."
 
-🔗 [Read full post on LinkedIn](https://www.linkedin.com/your-post-link)
+🔗 [Read full post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7359460978738057216/)
 
 Used to show strategic thinking, communication skills, and domain expertise in Nigerian telecom systems.
 
@@ -96,6 +96,7 @@ Used to show strategic thinking, communication skills, and domain expertise in N
 ### 1. Start the Mock API Server
 ```bash
 npx json-server --watch db.json --port 3000
+
 
 
 
