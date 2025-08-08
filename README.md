@@ -58,7 +58,7 @@ Validates core telecom Value-Added Services (VAS) such as airtime purchase, bala
 | Admin Recharge | 🟡 Manual (Postman)
 
 ### 📎 Download Postman Collection
-📥 [VAS-API-Test-Suite.postman_collection.json](postman/VAS-API-Test-Suite.postman_collection.json)
+📥 [VAS-API-Test-Suite.postman_collection](https://docs.google.com/document/d/1yDsueFRde3_lQyC2d5VxZg73gmupORQ5kn4g1APAEHY/edit?usp=sharing)
 
 ---
 
@@ -69,7 +69,6 @@ Validates core telecom Value-Added Services (VAS) such as airtime purchase, bala
 ```bash
 npx json-server --watch db.json --port 3000
 
----
 
 
 
