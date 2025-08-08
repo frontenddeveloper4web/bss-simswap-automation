@@ -1,31 +1,20 @@
+
 {
-  "users": [
+  "balance": [
     {
-      "id": "1",
-      "email": "customer@telco.com",
-      "iccid": "8923400000000000001",
-      "status": "active"
+      "msisdn": "08012345678",
+      "balance": 500,
+      "currency": "NGN"
     }
   ],
-  "sim_swaps": [
+  "airtime": [],
+  "transactions": [
     {
-      "id": "99a7"
-    },
-    {
-      "id": "81b9",
-      "userId": 1,
-      "oldIccid": "8923400000000000001",
-      "status": "submitted",
-      "timestamp": "2025-04-05T10:00:00Z"
-    },
-    {
-      "id": "f76d",
-      "userId": 1,
-      "oldIccid": "8923400000000000001",
-      "status": "submitted",
+      "id": 1,
+      "msisdn": "08012345678",
+      "type": "airtime",
+      "amount": 100,
       "timestamp": "2025-04-05T10:00:00Z"
     }
-  ],
-  "identity_verification": [],
-  "billing_events": []
+  ]
 }
