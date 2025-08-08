@@ -44,3 +44,23 @@ Simulates real-world workflows like **SIM swap requests**, **identity verificati
 ### 1. Start the Mock API Server
 ```bash
 npx json-server --watch db.json --port 3000
+
+**## 🌐 Project 3: VAS API Test Suite**
+Validates core telecom Value-Added Services (VAS), including airtime purchase, balance check, and transaction history.
+
+### 🔧 Features
+- REST API testing for USSD-backed services
+- Automated validation of business logic
+- Ready for integration into CI/CD pipelines
+- Aligns with real-world Nigerian telecom use cases
+
+### 📎 Postman Collection
+📁 [Download VAS API Collection](postman/VAS-API-Test-Suite.postman_collection.json)
+
+### 🧪 Test Coverage
+| Test | Status |
+|------|--------|
+| Check Balance | ✅ Automated |
+| Buy Airtime | ✅ Automated |
+| Transaction History | ✅ Automated |
+| Admin Recharge | 🟡 Manual (Postman) |
