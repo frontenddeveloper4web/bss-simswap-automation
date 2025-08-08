@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Maven & Test Reports
+target/
+allure-results/
+allure-report/
+*.log
+
+# OS
+$RECYCLE.BIN/
+Desktop.ini
