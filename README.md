@@ -45,7 +45,7 @@ Simulates real-world workflows like **SIM swap requests**, **identity verificati
 ```bash
 npx json-server --watch db.json --port 3000
 
-**## 🌐 Project 3: VAS API Test Suite**
+## 🌐 Project 3: VAS API Test Suite
 Validates core telecom Value-Added Services (VAS), including airtime purchase, balance check, and transaction history.
 
 ### 🔧 Features
@@ -64,3 +64,4 @@ Validates core telecom Value-Added Services (VAS), including airtime purchase, b
 | Buy Airtime | ✅ Automated |
 | Transaction History | ✅ Automated |
 | Admin Recharge | 🟡 Manual (Postman) |
+
