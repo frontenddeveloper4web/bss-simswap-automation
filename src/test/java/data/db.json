@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "customer@telco.com",
+      "iccid": "8923400000000000001",
+      "status": "active"
+    }
+  ],
+  "sim_swaps": [
+    {
+      "id": "99a7"
+    },
+    {
+      "id": "81b9",
+      "userId": 1,
+      "oldIccid": "8923400000000000001",
+      "status": "submitted",
+      "timestamp": "2025-04-05T10:00:00Z"
+    },
+    {
+      "id": "f76d",
+      "userId": 1,
+      "oldIccid": "8923400000000000001",
+      "status": "submitted",
+      "timestamp": "2025-04-05T10:00:00Z"
+    }
+  ],
+  "identity_verification": [],
+  "billing_events": []
+}
